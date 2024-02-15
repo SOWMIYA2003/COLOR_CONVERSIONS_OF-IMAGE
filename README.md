@@ -36,57 +36,60 @@ Split and Merge RGB Image
 Split and merge HSV Image
 
 ##### Program:
-### Developed By:
-### Register Number: 
+### Developed By: Sowmiya N
+### Register Number: 212221230106
 
 
 ## Output:
 
 ### i) Read and display the image
 
-<br>
-<br>
+![op](./d1.png)
 
 ### ii)Write the image
 
-<br>
-<br>
+![op](./d2.png)
+![op](./d2a.png)
+![op](./d2b.png)
 
 ### iii)Shape of the Image
-
-<br>
-<br>
+![op](./d3a.png)
 
 ### iv)Access rows and columns
-<br>
-<br>
+![op](./d4.png)
 
 ### v)Cut and paste portion of image
-<br>
-<br>
+![op](./d5.png)
 
 ### vi) BGR and RGB to HSV and GRAY
-<br>
-<br>
+#### Original Image
+![op](./c1.png)
+#### BGR to HSV
+![op](./c2.png)
+#### RGB to HSV
+![op](./c3.png)
+#### BGR to GRAY
+![op](./c4.png)
+### RGB to GRAY
+![op](./c5.png)
 
 ### vii) HSV to RGB and BGR
-<br>
-<br>
+#### Original Image
+![op](./e1.png)
+#### HSV to RGB
+![op](./e2.png)
+#### HSV to BGR
+![op](./e3.png)
 
 ### viii) RGB and BGR to YCrCb
-<br>
-<br>
-
+#### RGB to YCrCb
+![op](./f1.png)
+#### BGR to YCrCb
+![op](./f2.png)
 ### ix) Split and merge RGB Image
-<br>
-<br>
-
+![op](./a1.png)
 ### x) Split and merge HSV Image
-<br>
-<br>
-
-
-
+![op](./a2.png)
 
 ## Result:
 Thus the images are read, displayed, and written ,and color conversion was performed between RGB, HSV and YCbCr color models successfully using the python program.
