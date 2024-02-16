@@ -104,19 +104,42 @@ cv2.destoryAllWindow()
 #Split and Merge RGB Image
 
 
-blue = img[:,:,0]
-green = img[:,:,1]
-red = img[:,:,2]
+import cv2
+img = cv2.imread('img.png',1)
 
-cv2.merge((blue,green,red))
+
+R = img[:,:,2]
+G = img[:,:,1]
+B = img[:,:,0]
+
+cv2.imshow('R-Channel',R)
+cv2.imshow('G-Channel',G)
+cv2.imshow('B-Channel',B)
+
+merged = cv2.merge((B,G,R))
+cv2.imshow('Merged RGB image',merged)
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
 
 
 ##Split and merge HSV Image
 
+import cv2
+img = cv2.imread("img.png",1)
+img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)
 
-h, s, v = cv2.split(hsv)
+H,S,V=cv2.split(img)
 
-cv2.merge((h,s,v))
+cv2.imshow('Hue',H)
+cv2.imshow('Saturation',S)
+cv2.imshow('Value',V)
+
+merged =  np.hstack((H,S,V))
+cv2.imshow('Merged',merged)
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
 
 
 
