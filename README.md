@@ -68,7 +68,6 @@ new_output_path = "saved_image.png"
 cv2.imwrite(new_output_path, saved_image)
 print(f"Saved image saved to: {new_output_path}")
 ```
-![op](./d2.png)
 ![op](./d2a.png)
 ![op](./d2b.png)
 
