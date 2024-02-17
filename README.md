@@ -48,7 +48,7 @@ img=cv2.imread("img.png")
 cv2.imshow("window",img)
 cv2.waitKey(0)
 ```
-![op](./d1.png)
+![op](./ans.png)
 
 ### ii)Write the image
 ```
